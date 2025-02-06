@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nguyen Ngoc Lan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Nguyen Ngoc Lan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./images/lan.jpg" alt="Lan Nguyen">
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Nguyen Ngoc Lan</h1>
+            <p class="section_text_p2">IT Junior Student</p>
+
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="location.href='https://www.facebook.com/'">Facebook
+                </button>
+                
+                <button
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <img 
+                src="./images/linkedin.jpg" 
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/login/vi'"
+                />
+
+                <img 
+                src="./images/github.jpg" 
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/'"
+                />
+            </div>
+        </div>
+        <img 
+        src="./images/arrow.jpg" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+        />
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            
+            <div class="section_pic-container">
+                <img 
+                src="./images/lann.jpg" 
+                alt="profile picture"
+                class="about-pic"
+                />
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="./images/basicInfo.jpg" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+
+                        <h3>Basic Information</h3>
+                        <p><span>Date of Birth:</span> October 07, 2004
+                            <br><span>Email:</span> Lan1234@gmail.com
+                            <br><span>Phone number:</span> 0867109807</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img 
+                        src="./images/skill.jpg" 
+                        alt="Education icon"
+                        class="icon"
+                        />
+
+                        <h3>Skills</h3>
+                        <p><span>Frontend Dev:</span> HTML, CSS, React
+                            <br><span>Backend Dev:</span> vanilla JS, Node.js, Java
+                            <br><span>Multimedia:</span> Photoshop, Adobe Illustrator
+                            <br><span>Language:</span> English</p>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                    <span>Education</span>
+                    <li style="color: rgb(120, 119, 119);">Undergraduate student at Hanoi University.</li>
+                    <li style="color: rgb(120, 119, 119);">A junior student at the Faculty of Information Technology.</li>
+                    
+                    <span><br>Hobbies</span>
+                    <p>I enjoy reading books, as it helps me explore new ideas and expand my imagination. Listening to music is another favorite hobby, as it allows me to relax and connect with my emotions. I also love traveling, as it gives me the opportunity to experience different cultures and broaden my perspective. Additionally, I enjoy exploring new technologies and staying updated with the latest trends in the tech world.</p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./images/arrow.jpg" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Working Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Faculty of Information Technology - Hanoi University</h2>
+                    <img src="./images/hanu.jpg" alt="Hanu Logo" class="hanu">
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <p><span class="highlight">Date:</span> Jan 2022 - Now</p>
+                                <p><span class="highlight">Position:</span> Sophomore Student</p>
+                                <p><span class="highlight">Main responsibilities:</span> Participated in both Lecture and Tutorial classes on the topic of Principles of Computers (PCO), focusing on advanced Excel and an introduction to basic HTML and CSS. <br>The classes provided a comprehensive overview of using Excel for complex tasks, alongside building foundational knowledge of web development through HTML and CSS.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Faculty of Information Technology - Hanoi University</h2>
+                    <img src="./images/hanu.jpg" alt="Hanu Logo" class="hanu">
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <p><span class="highlight">Date:</span> Jan 2022 - Now</p>
+                                <p><span class="highlight">Position:</span> Junior Student</p>
+                                <p><span class="highlight">Main responsibilities:</span> Currently enrolled in the Internet and Web Services (IWS) course, focusing primarily on web services with an emphasis on practical real-world projects. <br>In which I am learning how to design, build, and deploy web services that cater to modern internet needs, while gaining valuable insight into best practices for developing scalable, efficient, and secure web applications.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Faculty of Information Technology - Hanoi University</h2>
+                    <img src="./images/hanu.jpg" alt="Hanu Logo" class="hanu">
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <p><span class="highlight">Date:</span> Jan 2022 - Now</p>
+                                <p><span class="highlight">Position:</span> Junior Student</p>
+                                <p><span class="highlight">Main responsibilities:</span> Studied Web Programming (WPR) to enhance web coding skills, with hands-on practice in APIs, RESTful services, and database connections. <br>I gained experience in developing dynamic and interactive web applications, learning how to integrate various web technologies effectively to create robust and scalable systems.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./images/arrow.jpg" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        /> 
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./images/dominee.png" 
+                    alt="Project 1"
+                    class="project-img"
+                    />
+                </div>
+                
+                <h2 class="experience-sub-title project-title">Domineering Game Website</h2>
+                <p style="padding-bottom: 0.5rem">This is a two-player strategy game played on a grid (10×10 squares). Players take turns placing dominoes. Player V places dominoes vertically (covering two squares in the same column). Player H places dominoes horizontally (covering two squares in the same row). A move is valid only if both squares the domino covers are empty. The game ends when no valid moves are left for the current player.</p>
+                <p style="font-weight: bold; font-size: medium; padding-bottom: 1rem;">Vite, React, HTML, CSS, JavaScript</p>
+                
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://github.com/'"> Github
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://localhost:5173/'"> Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./images/hautecou.png" 
+                    alt="Project 2"
+                    class="project-img"
+                    />
+                </div>
+                
+                <h2 class="experience-sub-title project-title">E-Commerce Website "Haute Couture"</h2>
+                <p style="padding-bottom: 0.5rem">This website is dedicated to showcasing the timeless elegance and sophistication of HAUTE COUTURE, a brand where fashion transcends trends and becomes an expression of individuality. Designed to celebrate the art of luxury fashion, our platform offers a seamless experience for discovering our meticulously crafted collections.</p>
+                <p style="font-weight: bold; font-size: medium; padding-bottom: 1rem;">HTML, CSS, JavaScript</p>
+
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://github.com/'"> Github
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://localhost:5173/'"> Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./images/myPortfolio.png" 
+                    alt="Project 3"
+                    class="project-img"
+                    />
+                </div>
+                
+                <h2 class="experience-sub-title project-title">My Portfolio Website</h2>
+                <p style="padding-bottom: 0.5rem">This platform is a reflection of my journey, skills, and experiences in both personal and professional development. It contains key details such as my date of birth, contact information, and links to my social media profiles like Facebook and GitHub. My professional experience is outlined here, where I share the roles I've held, along with the dates of employment and a brief description of my responsibilities.</p>
+                <p style="font-weight: bold; font-size: medium; padding-bottom: 1rem;">HTML, CSS, JavaScript</p>
+
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://github.com/'"> Github
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='http://localhost:5173/'"> Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img 
+        src="./images/arrow.jpg" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        /> 
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./images/email.jpg" 
+                alt="Email icon"
+                class="icon contact-icon"
+                onclick="location.href='https://support.google.com/mail/answer/56256?hl=vi'"
+                />
+                <p>Lan1234@gmail.com</p>
+
+            </div>
+
+            <div class="contact-info-container">
+                <img 
+                src="./images/linkedin.jpg" 
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+                onclick="location.href='https://www.linkedin.com/login/vi'"
+                />
+                <p>LinkedIn</p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p><br>Copyright &#169; 2024 Nguyen Ngoc Lan | All Rights Reserved.</p>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
